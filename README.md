@@ -1,6 +1,7 @@
-# PageFinder
+# DomainFence (PageFinder)
 
 A two-stage web crawler that finds task-relevant pages within a seed domain's ecosystem. Stage 1 uses Personalized PageRank to discover and rank related domains. Stage 2 (optional) uses those domains as a whitelist for semantic search.
+An *AI Agent* can optionally pick up where DomainFence left off in Stage 1, using the top-k related domains as a whitelist for the agent's navigation in order to prevent unwanted, expensive trajectories in agent behavior.
 
 ## How it works
 
